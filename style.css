@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.loginbtn {
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+    background-color: #204e51ff;
+    margin-left: 10%;
+}
+.signbtn{
+    width: 200px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: -10%;
+}
+.main {
+    margin-top: 20px;
+    height: 700px;
+    background-image: url(image\ 1.png);
+}
+.center-main{
+    /* margin-top: 90; */
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.center-main h1{
+    padding: 7%;
+}
+.center-main p{
+    margin-top: -80px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.butons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.getbtn {
+    margin-top: 30px;
+    width: 175px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #204e51ff;
+    border: none;
+}
+.morebtn{
+    position: relative;
+    margin-top: 30px;
+    width: 175px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Our_Story{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 650px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+
+}
+
+.Our_Story h1{
+    font-size: 70px;
+    color:#204e51ff;
+    margin-left: 30px;
+}
+.Our_Story p{
+    margin-left: 30px;
+    margin-top: 20px;
+
+    font-size: 15px;
+}
+.sice_buton{
+    display: flex;
+    justify-content: space-between;
+}
+.Our_Story button{
+    position: relative;
+    border: none;
+    margin-top: 20px;
+    width: 175px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: #204e51ff;
+}
+.sice{
+    margin-top: 20px;
+    width: 175px;
+    height: 54px;
+    background-color: rgb(91, 89, 89);
+    font-size: 12px;
+}
+
+.Our_service {
+    height: 650px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+}
+
+.Our_service h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #204e51ff;
+    font-size: 40px;
+}
+.Our_service p{
+    text-align: center;
+    margin-top: 10px;
+}
+.our-box {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 45px;
+}
+.box1 {
+    border-radius: 20px;
+    background-color: rgba(174, 172, 172, 0.25);
+    width: 300px;
+    height: 350px;
+}
+.box1 img {
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.box1 p {
+    font-size: 20px;
+}
+.Our_Featured_Product {
+    height: 650px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    text-align: center;
+}
+.Our_Featured_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.box2 {
+    border-radius: 20px;
+    background-color: rgba(174, 172, 172, 0.25);
+    width: 281px;
+    height: 508px;
+}
+
+.box2 img {
+    margin-top: 30px;
+}
+.box2 h3 {
+    margin-top: 20px;
+    color: rgba(32, 78, 81, 1);
+}
+.box2 p {
+    margin-top: 20px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.Sustainable {
+    /* text-align: center; */
+    width:1483px;
+    height: 629px;
+    background-image: url(images/Rectangle\ 4.png);
+    
+}
+.Sustainable h1{
+    color: white;
+    font-size: 80px;
+    /* margin-top: 5%; */
+    margin-left: 5%;
+}
+
+.Learnbtn {
+    border: none;
+    margin-top: 30px;
+    margin-left: 91px;
+    width:181px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #204e51ff;
+}
+
+.Contactbtn {
+    margin-top: 30px;
+    margin-left: 91px;
+    width:181px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Benefits  {
+    height: 750px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.Benefits-parent h1{
+    margin-top: 90px;
+    color: #204e51ff;
+    font-size: 90px;
+}
+.Benefits-parent p{
+    font-size: 25px;
+}
+.Benefits-box {
+    height:684px;
+    width: 570px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgba(32, 78, 81, 1);
+}
+.ben-box1 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ha {
+    margin-top: 20px;
+    color: white;
+}
+.ben-box2 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.ben-box3 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.ben-box4 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Testim {
+    height: 650px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    text-align: center;
+   
+}
+.Testim h1{
+    font-size: 50px;
+    color: rgba(32, 78, 81, 1);
+}
+
+.text-box {
+    height: 437px;
+    width: 1010px;
+    margin-top: 30px;
+    margin-left: 203px;
+    border-radius: 20px;
+    background-color: rgba(32, 78, 81, 1);
+    display: flex;
+    gap: 25px;
+}
+.text-box img {
+    width: 231px;
+    height: 231px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.tst img {
+    width: 212px;
+    height: 40px;
+    margin-top: 28%;
+    margin-left: -150px;
+    
+}
+
+.tst h3{
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: -80px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tst h6{
+    margin-left: -215px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+.tst p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Our_Blog {
+    height: 850px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Our_Blog_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.box6 {
+    width: 400px;
+    height: 726px;
+    background-color: white;
+}
+.box6 img{
+    width: 380px;
+    height: 470px;
+    margin-top: 10px;
+}
+
+.box6 h3{
+    margin-top: 25px;
+    color: rgba(32, 78, 81, 1);
+    font-size: 30px;
+}
+.box6  p {
+    margin-top: 25px;
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+}
+
+.footer {
+    width: 1476px;
+    height: 586px;
+    background-color: rgba(32, 78, 81, 1);
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.div1 {
+    margin-top: 10%;
+}
+.div1 h6{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.div1 img {
+    margin-top: 25%;
+}
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    margin-top: 10%;
+}
+
+.Pages ul {
+    list-style: none;
+}
+.Pages ul li {
+    padding-top: 20px;
+}
+.About ul{
+    list-style: none;
+}
+.About ul li{
+    padding-top: 20px;
+}
+
+@media screen and (max-width:600px){
+    /* .header{
+
+    }
+    .main{
+        /* height: 400px; */
+       
+    /* } */
+    /* .our-box{
+        margin-left: 30px;
+        flex-direction: column;
+    } */
+    /* .Sustainable h1 {
+        font-size: 28px;
+    } */
+    /* .Sustainable {
+        padding: 0px;
+    } */
+   
+    
+    .Benefits {
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .Benefits-parent h1{
+        font-size: 38px;
+    }
+    
+
+
+
+}
